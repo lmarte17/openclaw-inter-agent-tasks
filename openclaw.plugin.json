@@ -1,0 +1,20 @@
+{
+  "id": "openclaw-inter-agent-tasks",
+  "name": "OpenClaw Inter-Agent Task System",
+  "description": "Durable, inspectable inter-agent task and workflow coordination. Typed tasks, worker routing, dependency tracking, approval gates, retries, and audit events.",
+  "version": "1.0.0",
+  "kind": "runtime",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "projectPath": {
+        "type": "string",
+        "minLength": 1
+      },
+      "debug": {
+        "type": "boolean"
+      }
+    }
+  }
+}
